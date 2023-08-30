@@ -63,3 +63,23 @@ transition:all 2s;
     font-family: Arial;
     font-size: 4vh;
 }
+.banner{
+ height: 40vh;
+ width: 100%;
+ background-color:orange;
+ margin-top: 5vh;
+ color: white;
+ font-family: Arial;
+
+}
+.banner article{
+margin-left: 6vh;
+margin-top: 10vh;
+position: absolute;
+
+
+}
+.banner h1{
+    font-size: 3vh;
+
+}
