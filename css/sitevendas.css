@@ -1,0 +1,65 @@
+.barra_navegaçao{
+    height:8vh;
+    width: 100%;
+    margin-top:-2vh;
+    background-color: darkorchid;
+}
+.barra_navegaçao ul li {
+ color: rgb(243, 243, 243);
+ font-family: Arial;
+ float: left;
+ list-style: none;
+ margin-left: 5vh;
+ 
+
+
+}
+.barra_navegaçao ul li a{
+    transition: all 2s;
+    color: ghostwhite;
+    text-decoration: none;
+    margin-left: 5vh;
+}
+
+.barra_navegaçao ul{
+    position: absolute;
+    margin-left: 20vh;
+}
+
+
+.barra_navegaçao ul li a:hover{
+font-size: 3vh;
+color: indigo;
+font-style: italic;
+transition:all 2s;
+
+}
+
+
+.localNav{
+
+    background-color: grey;
+    color: black;
+    margin-top: 8vh;
+    position: absolute;
+    font-family: Arial;
+    width: 99.1%;
+    height: 4vh;
+
+}
+.localNav h4{
+
+    position: absolute;
+    margin-left: 15vh;
+    margin-top: 1vh;
+}
+.logo{
+    color: chocolate;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    height: 6vh;
+    width: vh;
+    position: absolute;
+    font-family: Arial;
+    font-size: 4vh;
+}
