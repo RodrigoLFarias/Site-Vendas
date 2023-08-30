@@ -23,6 +23,32 @@ setInterval(() => {
 }
 B.ModificaBanner("banner_1",BannerInfo,BannerIndex)
 BannerIndex+=1
-},2000)
+},9000)
+
+document.getElementById("btBannerProximo").addEventListener ("click",()=>{
+
+    if(BannerIndex >= 2){
+       BannerIndex=0
+    }
+    else{
+        BannerIndex+=1
+    }
+    B.ModificaBanner("banner_1",BannerInfo,BannerIndex)
+})
+
+document.getElementById ("btBannerAnterior").addEventListener ("click",()=>{
+
+
+if(BannerIndex <=0){
+   BannerIndex=2
+ }
+ else{
+     BannerIndex-=1
+ }
+ B.ModificaBanner("banner_1",BannerInfo,BannerIndex)
+
+})
+
+
 
 
