@@ -1,7 +1,12 @@
 class Banner{
-    criarBanner(idAlvo,Texto){
+    criarBanner(idAlvo,ListaBanner){
         let Elemento = document.getElementById(idAlvo)
-        Elemento.innerHTML+="<article>"+Texto+"</article>"
+        Elemento.innerHTML+="<article></article>"
+    }
+    ModificaBanner(idAlvo="",ListaBanner=[""],index=0){
+        let Banner = document.getElementById(idAlvo).getElementsByTagName("article")[0]
+        Banner.innerHTML= ListaBanner[index]
+      
     }
 
 
