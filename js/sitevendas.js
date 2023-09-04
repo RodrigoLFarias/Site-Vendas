@@ -1,10 +1,10 @@
 import navComponente from "./nav.js"
-
 import Banner from "./banner.js"
-
+import card from "./cards.js"
 
 let Menus = ["Nome","Produtos","Contato"]
 let nav = new navComponente();
+let CardProduto = new card
 
 nav.criarnovomenu("barra_01",Menus)
 nav.criarBarraNavUsuario("barra_01","Home")
@@ -49,6 +49,17 @@ if(BannerIndex <=0){
 
 })
 
+CardProduto.EscolherTipo("card sb")
+
+CardProduto.CriarCards("Portacard1","Tênis da adidas","É um tênis de alta performance")
+CardProduto.CriarCards("Portacard1","Tênis da adidas","É um tênis de alta performance")
+
+let cardVendas = new card ()
+cardVendas.EscolherTipo("cardProduto sb")
+cardVendas.CriarCards("Portacard1","Produto a venda","Venda do produto")
 
 
-
+let cardNovo = new card ()
+cardVendas.EscolherTipo("card03 sb")
+cardVendas.CriarCards("Portacard1","Produto a venda","Venda do produto")
+cardVendas.CriarCards("Portacard1","Produto a venda","Venda do produto")

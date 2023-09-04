@@ -2,7 +2,7 @@
     height:8vh;
     width: 100%;
     margin-top:-2vh;
-    background-color: darkorchid;
+    background-color:orange;
 }
 .barra_navegaçao ul li {
  color: rgb(243, 243, 243);
@@ -66,7 +66,7 @@ transition:all 2s;
 .banner{
  height: 40vh;
  width: 100%;
- background-color:orange;
+ background-color:rgb(10, 198, 223);
  margin-top: 5vh;
  color: white;
  font-family: Arial;
@@ -106,3 +106,74 @@ font-size: 3vh;
     position: absolute;
     margin-left: 185vh;
 }
+.CardsElementos{
+    background-color:#ccc;
+    margin-left:10vh;
+    margin-top: 2vh;
+    height:40vh;
+    width:90%;
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    height:30vh;
+    width: 20vh;
+    background-color: rgb(155, 155, 155);
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    
+}
+.card h1{
+    font-size: 3vh;
+    color: rgb(22, 163, 199);
+    font-family: Arial;
+
+}
+.card h3{
+ color:rgb(223, 147, 7);
+
+}
+.cardProduto{
+    transition: all 1s;
+    height:30vh;
+    width: 20vh;
+    background-color: rgb(214, 13, 13);
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    
+}
+.card03{
+    height:30vh;
+    width: 20vh;
+    background-color: rgb(8, 52, 173);
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    font-family: Arial;
+
+}
+.cardProduto:hover{
+  transition: all 2s;
+  transform: scale(1.2);
+  background-color: rgb(6, 144, 179)
+
+}
+.card:hover{
+    transition: all 2s;
+    transform: scale(1.2);
+    background-color: palegreen;
+  
+  }
+.card03:hover{
+    transition: all 2s;
+    transform: scale(1.2);
+    background-color: rgb(6, 144, 179);
+  
+  }
+  .sb{
+      box-shadow: 0.4vh 0.5vh  rgb(155, 155, 155);
+  }
+
+
