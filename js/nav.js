@@ -5,7 +5,7 @@ class navComponente {
         let MenuAcrescentar = document.getElementById("Menu_02")
 
 Elementos.forEach(MenuAdd => {
-    MenuAcrescentar.innerHTML+="<li><a href='a'>"+MenuAdd+"<a/></li>"
+    MenuAcrescentar.innerHTML+="<li><a href='#'>"+MenuAdd+"<a/></li>"
     
 });
 
